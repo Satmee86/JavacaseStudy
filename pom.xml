@@ -204,7 +204,7 @@
 			<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-war-plugin</artifactId>
 				<configuration>
-				<WebXml>../CaseStudyProject/WebContent/WEB-INF/web.xml</WebXml>
+				<webXml>../CaseStudyProject/WebContent/WEB-INF/web.xml</webXml>
 				</configuration>
 			</plugin>
 
