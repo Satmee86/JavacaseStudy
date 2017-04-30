@@ -200,6 +200,13 @@
 					<outputDirectory>../WEB-INF/lib</outputDirectory>
 				</configuration>
 			</plugin>
+			<plugin>
+			<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-war-plugin</artifactId>
+				<configuration>
+				<WebXml>../CaseStudyProject/WebContent/WEB-INF/web.xml</WebXml>
+				</configuration>
+			</plugin>
 
 		</plugins>
 
